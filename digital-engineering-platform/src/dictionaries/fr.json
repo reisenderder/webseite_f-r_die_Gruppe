@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "webEngineering": "Ingénierie Web",
+    "automation": "Automatisation",
+    "aiIntegration": "Intégration IA",
+    "allServices": "Tous les services",
+    "industries": "Secteurs",
+    "caseStudies": "Études de cas",
+    "about": "À propos",
+    "contact": "Contact",
+    "console": "Console",
+    "requestDemo": "Demander une démo"
+  },
+  "hero": {
+    "release": "Lancement plateforme v1.0.0",
+    "title": "Le pilier d'ingénierie digitale pour les systèmes d'entreprise",
+    "subtitle": "Unification de l'automatisation logicielle, de la télémétrie edge en temps réel et de l'intelligence artificielle contextuelle. Conçu pour la complexité industrielle.",
+    "explore": "Explorer les fonctionnalités"
+  },
+  "problem": {
+    "badge": "Défis Industriels",
+    "title": "Le coût d'une infrastructure fragmentée",
+    "subtitle": "Les environnements cloisonnés et les systèmes d'automatisation fragiles empêchent les entreprises industrielles de se développer efficacement et d'adopter l'IA.",
+    "challenges": [
+      {
+        "title": "Silos de systèmes & Dépendance fournisseur",
+        "description": "Les logiciels d'entreprise et les opérations matérielles industrielles existent dans des silos isolés, empêchant les flux de données en temps réel et l'orchestration globale."
+      },
+      {
+        "title": "Automatisation existante fragile",
+        "description": "Les architectures d'automatisation actuelles sont figées et dépendent d'automates obsolètes. Les mises à jour nécessitent des interventions manuelles coûteuses."
+      },
+      {
+        "title": "Systèmes d'IA non intégrés",
+        "description": "L'intégration directe des modèles de ML dans les environnements de production en direct est bloquée par la latence, l'incompatibilité des protocoles et la sécurité."
+      }
+    ]
+  },
+  "solution": {
+    "badge": "Notre Architecture",
+    "title": "Solutions d'ingénierie unifiées",
+    "subtitle": "Une architecture middleware sécurisée et open-source connectant la télémétrie physique en temps réel aux systèmes cloud et aux charges de travail d'IA.",
+    "solutions": [
+      {
+        "title": "Orchestration unifiée des protocoles",
+        "description": "Connectez les protocoles industriels existants (Modbus, OPC UA) aux standards web modernes (gRPC, WebSockets, REST) via un middleware unique pour les développeurs."
+      },
+      {
+        "title": "Boucle d'automatisation logicielle",
+        "description": "Remplacez les configurations matérielles physiques par des boucles de contrôle cloud/edge flexibles et sécurisées. Modifiez les paramètres à la volée."
+      },
+      {
+        "title": "Environnements d'IA Edge isolés",
+        "description": "Déployez des modèles d'inférence de ML et des agents autonomes dans des bacs à sable isolés proches de la télémétrie, garantissant la confidentialité et la faible latence."
+      }
+    ]
+  },
+  "services": {
+    "badge": "Capacités",
+    "title": "Services d'ingénierie clés",
+    "subtitle": "Nous concevons des couches logicielles évolutives qui connectent les contrôles web aux runtimes d'automatisation et aux modèles intelligents.",
+    "button": "Consulter le catalogue des capacités",
+    "explore": "Découvrir les spécifications",
+    "streams": [
+      {
+        "title": "Plateformes d'ingénierie Web",
+        "description": "Architecture de tableaux de bord de télémétrie haute fréquence, d'interfaces de contrôle temps réel et d'API microservices découplées.",
+        "badge": "Infrastructure Web"
+      },
+      {
+        "title": "Automatisation des systèmes",
+        "description": "Conception de boucles de télémétrie logicielles, de bibliothèques d'intégration d'automates et de réseaux d'orchestration edge en temps réel.",
+        "badge": "Runtimes d'automatisation"
+      },
+      {
+        "title": "Intégration d'IA & Pipelines",
+        "description": "Intégration d'agents cognitifs sécurisés, de pipelines LLM RAG et de points de contrôle automatisés pour le machine learning.",
+        "badge": "Orchestration d'IA"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Méthodologie",
+    "title": "Processus de déploiement et de livraison",
+    "subtitle": "Un processus d'intégration systématique et sécurisé, adapté aux systèmes d'entreprise critiques.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Audit & Mapping des protocoles",
+        "description": "Nos architectes auditent les terminaux de télémétrie, les bases de données et les automates existants pour concevoir une stratégie de mapping unifiée."
+      },
+      {
+        "step": "02",
+        "title": "Déploiement du Middleware",
+        "description": "Nous déployons des clusters de conteneurs DEP isolés et configurons des serveurs passerelles edge pour sécuriser la liaison avec les protocoles physiques locaux."
+      },
+      {
+        "step": "03",
+        "title": "Intégration de la boucle Edge",
+        "description": "Nous intégrons des algorithmes de contrôle logiciels dans des bacs à sable edge, validant les temps de réponse et les contraintes de bande passante."
+      },
+      {
+        "step": "04",
+        "title": "Activation de la couche cognitive",
+        "description": "Nous connectons des agents LLM, des index sémantiques et des portails clients pour permettre aux opérateurs de contrôler les systèmes dynamiquement."
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Focus Sectoriel",
+    "title": "Conçu pour les secteurs critiques",
+    "subtitle": "Adaptation des standards de la plateforme aux exigences strictes de conformité et de fiabilité des marchés cibles.",
+    "button": "Explorer les solutions sectorielles",
+    "sectors": [
+      {
+        "title": "Automobile & Industrie",
+        "description": "Orchestration de pipelines de télémétrie HIL, de séquences de contrôle robotique et de diagnostics d'assemblage à faible latence."
+      },
+      {
+        "title": "Énergie & Services publics",
+        "description": "Gestion de la distribution de charge des réseaux intelligents, de capteurs en environnements difficiles et de diagnostics prédictifs."
+      },
+      {
+        "title": "Télécommunications",
+        "description": "Contrôle des commutateurs réseau, traitement de bande passante edge en temps réel et tableaux de bord de secours automatisés."
+      },
+      {
+        "title": "Finance & Marchés de capitaux",
+        "description": "Déploiement de backends transactionnels à haut débit, de calculateurs financiers à faible latence et de middlewares de registres distribués."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Prêt à évoluer?",
+    "title": "Accélérez votre ingénierie système logicielle",
+    "subtitle": "Contactez notre équipe d'ingénieurs solutions pour concevoir un démonstrateur technique pour votre télémétrie dès aujourd'hui.",
+    "buttonConnect": "Contacter nos ingénieurs",
+    "buttonSchedule": "Planifier une consultation"
+  },
+  "footer": {
+    "description": "Une plateforme de classe entreprise accélérant la digitalisation industrielle, l'automatisation logicielle et l'intégration de l'intelligence artificielle pour les systèmes complexes.",
+    "copyright": "Tous droits réservés. Conçu pour l'échelle industrielle.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "security": "Conformité & Sécurité",
+    "columns": {
+      "platform": "Plateforme",
+      "solutions": "Solutions",
+      "resources": "Ressources",
+      "company": "Entreprise"
+    }
+  }
+}

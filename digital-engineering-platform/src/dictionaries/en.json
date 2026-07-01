@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "webEngineering": "Web Engineering",
+    "automation": "Automation",
+    "aiIntegration": "AI Integration",
+    "allServices": "All Services",
+    "industries": "Industries",
+    "caseStudies": "Case Studies",
+    "about": "About",
+    "contact": "Contact",
+    "console": "Console",
+    "requestDemo": "Request Platform Demo"
+  },
+  "hero": {
+    "release": "Platform Release v1.0.0",
+    "title": "The Digital Engineering Backbone for Enterprise Systems",
+    "subtitle": "Unifying software-defined automation, real-time edge telemetry, and context-aware artificial intelligence. Scaled for industrial complexity.",
+    "explore": "Explore Capabilities"
+  },
+  "problem": {
+    "badge": "Industry Challenges",
+    "title": "The Cost of Fragmented Infrastructure",
+    "subtitle": "Siloed environments and brittle automation systems prevent industrial organizations from scaling efficiently and adopting advanced AI capabilities.",
+    "challenges": [
+      {
+        "title": "System Siloes & Vendor Lock-in",
+        "description": "Enterprise software systems and industrial hardware operations exist in isolated silos, preventing real-time data flows and cross-system orchestration."
+      },
+      {
+        "title": "Brittle Legacy Automation",
+        "description": "Current automation architectures are heavily hard-coded and rely on legacy PLCs. Updating operations requires manual reconfigurations, leading to expensive downtime."
+      },
+      {
+        "title": "Unintegrated AI Systems",
+        "description": "Integrating ML models directly into live production environments is bottlenecked by data latency, protocol mismatches, and severe security compliance issues."
+      }
+    ]
+  },
+  "solution": {
+    "badge": "Our Architecture",
+    "title": "Unified Engineering Solutions",
+    "subtitle": "A secure, open-source middleware architecture connecting real-time physical telemetry to cloud systems and advanced AI workloads.",
+    "solutions": [
+      {
+        "title": "Unified Protocol Orchestration",
+        "description": "Connect legacy industrial protocols (Modbus, OPC UA) with modern enterprise web standards (gRPC, WebSockets, REST) via a single developer-friendly middleware."
+      },
+      {
+        "title": "Software-Defined Automation Loop",
+        "description": "Replace physical hardware configurations with flexible, secure cloud/edge control loops. Change operational parameters on-the-fly without hardware updates."
+      },
+      {
+        "title": "Isolated AI Edge Runtimes",
+        "description": "Deploy machine learning inference models and agentic pipelines in isolated sandboxes close to the telemetry source, maintaining data privacy and latency limits."
+      }
+    ]
+  },
+  "services": {
+    "badge": "Capabilities",
+    "title": "Core Engineering Services",
+    "subtitle": "We engineer scalable software layers that connect web controls with automation runtimes and intelligent models.",
+    "button": "View Capabilities Catalog",
+    "explore": "Explore service specs",
+    "streams": [
+      {
+        "title": "Web Engineering Platforms",
+        "description": "Architecting high-frequency telemetry dashboards, real-time control frontends, and decoupled micro-service APIs.",
+        "badge": "Web Infrastructure"
+      },
+      {
+        "title": "Systems Automation",
+        "description": "Designing software-defined telemetry loops, PLC integration libraries, and real-time edge orchestration networks.",
+        "badge": "Automation Runtimes"
+      },
+      {
+        "title": "AI Integration & Pipelines",
+        "description": "Integrating secure cognitive agent frameworks, LLM RAG pipelines, and automated machine learning checkpoints.",
+        "badge": "AI Orchestration"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Methodology",
+    "title": "Deployment & Delivery Process",
+    "subtitle": "A systematic, risk-mitigated integration process tailored to critical enterprise systems.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Audit & Protocol Mapping",
+        "description": "Our systems architects audit existing telemetry endpoints, industrial database configurations, and legacy PLCs to draft a unified data mapping strategy."
+      },
+      {
+        "step": "02",
+        "title": "Middleware Provisioning",
+        "description": "We deploy isolated DEP container clusters and configure edge gateway servers to connect with local physical protocols securely."
+      },
+      {
+        "step": "03",
+        "title": "Edge Loop Implementation",
+        "description": "We deploy software-defined control algorithms in isolated runtime sandboxes, validating response times and telemetry throughput constraints."
+      },
+      {
+        "step": "04",
+        "title": "Cognitive Layer Enablement",
+        "description": "We connect LLM reasoning agents, database semantic indexes, and client portal consoles to let operators control and monitor systems dynamically."
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Vertical Focus",
+    "title": "Designed for Critical Industries",
+    "subtitle": "Adapting platform standards to the strict compliance and reliability needs of target market sectors.",
+    "button": "Explore Industry Solutions",
+    "sectors": [
+      {
+        "title": "Automotive & Manufacturing",
+        "description": "Orchestrating hardware-in-the-loop telemetry pipelines, robotics control sequences, and assembly diagnostics at millisecond latency."
+      },
+      {
+        "title": "Energy & Utilities",
+        "description": "Managing smart grid load allocations, sensor networks in harsh environments, and predictive diagnostic systems."
+      },
+      {
+        "title": "Telecommunications",
+        "description": "Orchestrating network switch controls, real-time edge bandwidth processing, and automated failover telemetry dashboards."
+      },
+      {
+        "title": "Finance & Capital Markets",
+        "description": "Deploying high-throughput transactional backends, low-latency market calculators, and enterprise-grade ledger middleware."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Ready to scale?",
+    "title": "Accelerate your Software-Defined Systems Engineering",
+    "subtitle": "Get in touch with our solutions engineering team to build a technical proof of concept for your automation telemetry today.",
+    "buttonConnect": "Connect with our Engineers",
+    "buttonSchedule": "Schedule Consultation"
+  },
+  "footer": {
+    "description": "An enterprise-grade platform accelerating industrial digitalization, software-defined automation, and artificial intelligence integration for complex hardware-software systems.",
+    "copyright": "All rights reserved. Built for industrial scale.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "security": "Security Compliance",
+    "columns": {
+      "platform": "Platform",
+      "solutions": "Solutions",
+      "resources": "Resources",
+      "company": "Company"
+    }
+  }
+}

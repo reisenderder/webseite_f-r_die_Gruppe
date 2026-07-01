@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienste",
+    "webEngineering": "Web-Engineering",
+    "automation": "Automatisierung",
+    "aiIntegration": "KI-Integration",
+    "allServices": "Alle Dienste",
+    "industries": "Branchen",
+    "caseStudies": "Fallstudien",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "console": "Konsole",
+    "requestDemo": "Demo anfordern"
+  },
+  "hero": {
+    "release": "Plattform-Release v1.0.0",
+    "title": "Das digitale Engineering-Rückgrat für Unternehmenssysteme",
+    "subtitle": "Vereinheitlichung von softwaredefinierter Automatisierung, Edge-Telemetrie in Echtzeit und kontextsensitiver künstlicher Intelligenz. Skaliert für industrielle Komplexität.",
+    "explore": "Funktionen erkunden"
+  },
+  "problem": {
+    "badge": "Herausforderungen",
+    "title": "Die Kosten fragmentierter Infrastruktur",
+    "subtitle": "Isolierte Umgebungen und fragile Automatisierungssysteme verhindern, dass Industrieunternehmen effizient skalieren und fortschrittliche KI-Funktionen nutzen.",
+    "challenges": [
+      {
+        "title": "Systemsilos & Anbieterbindung",
+        "description": "Unternehmenssoftware und industrielle Hardware-Systeme existieren in isolierten Silos, was Echtzeit-Datenflüsse und systemübergreifende Orchestrierung verhindert."
+      },
+      {
+        "title": "Fragile Legacy-Automatisierung",
+        "description": "Aktuelle Automatisierungsarchitekturen sind stark fest codiert und basieren auf veralteten SPS. Aktualisierungen erfordern manuelle Neukonfigurationen, was zu teuren Ausfallzeiten führt."
+      },
+      {
+        "title": "Nicht integrierte KI-Systeme",
+        "description": "Die direkte Integration von ML-Modellen in Live-Produktionsumgebungen wird durch Datenlatenz, Protokollkonflikte und strenge Sicherheitsanforderungen behindert."
+      }
+    ]
+  },
+  "solution": {
+    "badge": "Unsere Architektur",
+    "title": "Einheitliche Engineering-Lösungen",
+    "subtitle": "Eine sichere Open-Source-Middleware-Architektur, die physikalische Echtzeit-Telemetrie mit Cloud-Systemen und fortschrittlichen KI-Arbeitslasten verbindet.",
+    "solutions": [
+      {
+        "title": "Einheitliche Protokoll-Orchestrierung",
+        "description": "Verbinden Sie ältere Industrieprotokolle (Modbus, OPC UA) mit modernen Webstandards (gRPC, WebSockets, REST) über eine einzige entwicklerfreundliche Middleware."
+      },
+      {
+        "title": "Softwaredefinierter Automatisierungskreis",
+        "description": "Ersetzen Sie physische Hardwarekonfigurationen durch flexible, sichere Cloud-/Edge-Regelkreise. Ändern Sie Betriebsparameter im laufenden Betrieb."
+      },
+      {
+        "title": "Isolierte KI-Edge-Runtimes",
+        "description": "Stellen Sie ML-Inferenzmodelle und Agenten-Pipelines in isolierten Sandkästen nahe der Telemetriequelle bereit, um Datenschutz und Latenzgrenzen einzuhalten."
+      }
+    ]
+  },
+  "services": {
+    "badge": "Funktionen",
+    "title": "Kern-Engineering-Dienste",
+    "subtitle": "Wir entwickeln skalierbare Softwareschichten, die Websteuerungen mit Automatisierungsumgebungen und intelligenten Modellen verbinden.",
+    "button": "Leistungskatalog anzeigen",
+    "explore": "Dienstspezifikationen erkunden",
+    "streams": [
+      {
+        "title": "Web-Engineering-Plattformen",
+        "description": "Architektur von Hochfrequenz-Telemetriedashboards, Echtzeit-Steuerungsfrontends und entkoppelten Microservice-APIs.",
+        "badge": "Web-Infrastruktur"
+      },
+      {
+        "title": "System-Automatisierung",
+        "description": "Entwurf softwaredefinierter Telemetrieschleifen, SPS-Integrationsbibliotheken und Echtzeit-Edge-Orchestrierungsnetzwerke.",
+        "badge": "Automatisierungs-Runtimes"
+      },
+      {
+        "title": "KI-Integration & Pipelines",
+        "description": "Integration sicherer kognitiver Agenten-Frameworks, LLM-RAG-Pipelines und automatisierter Checkpoints für maschinelles Lernen.",
+        "badge": "KI-Orchestrierung"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Methodik",
+    "title": "Bereitstellungs- & Lieferprozess",
+    "subtitle": "Ein systematischer, risikominimierter Integrationsprozess, der auf kritische Unternehmenssysteme zugeschnitten ist.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Audit & Protokoll-Mapping",
+        "description": "Unsere Systemarchitekten prüfen vorhandene Telemetrie-Endpunkte, Datenbankkonfigurationen und SPS, um eine einheitliche Datenmapping-Strategie zu entwerfen."
+      },
+      {
+        "step": "02",
+        "title": "Middleware-Bereitstellung",
+        "description": "Wir stellen isolierte DEP-Container-Cluster bereit und konfigurieren Edge-Gateway-Server, um eine sichere Verbindung zu physischen Protokollen herzustellen."
+      },
+      {
+        "step": "03",
+        "title": "Edge-Schleifen-Implementierung",
+        "description": "Wir implementieren softwaredefinierte Steuerungsalgorithmen in isolierten Sandkästen und validieren Reaktionszeiten sowie Latenzbedingungen."
+      },
+      {
+        "step": "04",
+        "title": "Aktivierung der kognitiven Schicht",
+        "description": "Wir verbinden LLM-Agenten, semantische Indizes und Client-Portale, damit Bediener Systeme dynamisch steuern und überwachen können."
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Branchenfokus",
+    "title": "Für kritische Branchen entwickelt",
+    "subtitle": "Anpassung der Plattformstandards an die strengen Compliance- und Zuverlässigkeitsanforderungen der Zielmärkte.",
+    "button": "Branchenlösungen erkunden",
+    "sectors": [
+      {
+        "title": "Automobilindustrie & Fertigung",
+        "description": "Orchestrierung von HIL-Telemetriepipelines, Robotersteuerungssequenzen und Montagediagnosen bei Latenzen im Millisekundenbereich."
+      },
+      {
+        "title": "Energie & Versorgung",
+        "description": "Verwaltung von Smart-Grid-Lastverteilungen, Sensornetzwerken in rauen Umgebungen und Systemen zur vorausschauenden Diagnose."
+      },
+      {
+        "title": "Telekommunikation",
+        "description": "Steuerung von Netzwerkswitchen, Echtzeit-Edge-Bandbreitenverarbeitung und Dashboards zur automatisierten Ausfalltelemetrie."
+      },
+      {
+        "title": "Finanzen & Kapitalmärkte",
+        "description": "Bereitstellung von Hochdurchsatz-Transaktions-Backends, Latenz-sensitiven Marktrechnern und Enterprise-Ledger-Middleware."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Bereit zu skalieren?",
+    "title": "Beschleunigen Sie Ihr softwaredefiniertes Systems-Engineering",
+    "subtitle": "Kontaktieren Sie unser Solutions-Engineering-Team, um noch heute ein technisches PoC für Ihre Automatisierungstelemetrie zu erstellen.",
+    "buttonConnect": "Mit Ingenieuren verbinden",
+    "buttonSchedule": "Beratung vereinbaren"
+  },
+  "footer": {
+    "description": "Eine Plattform der Enterprise-Klasse, die die industrielle Digitalisierung, softwaredefinierte Automatisierung und KI-Integration für komplexe Hardware-Software-Systeme beschleunigt.",
+    "copyright": "Alle Rechte vorbehalten. Für industriellen Maßstab gebaut.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "security": "Sicherheit & Compliance",
+    "columns": {
+      "platform": "Plattform",
+      "solutions": "Lösungen",
+      "resources": "Ressourcen",
+      "company": "Unternehmen"
+    }
+  }
+}
