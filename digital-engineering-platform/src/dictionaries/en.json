@@ -151,5 +151,79 @@
       "resources": "Resources",
       "company": "Company"
     }
+  },
+  "aboutPage": {
+    "subtitle": "We build digital foundations that connect software-defined agility with physical-world engineering scale.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To bridge the gap between high-level web control loops and low-level physical telemetry, enabling secure, autonomous, and scalable industrial software-defined operations.",
+    "valuesTitle": "Core Values",
+    "values": [
+      {
+        "title": "Industrial-Grade Reliability",
+        "description": "Fail-safe architectures, strict type safety, and real-time telemetry processing with deterministic guarantees."
+      },
+      {
+        "title": "Open Standards & Portability",
+        "description": "Zero vendor lock-in. Supporting open-source protocols (OPC UA, Modbus) and standard modern middleware container layers."
+      },
+      {
+        "title": "Security by Isolation",
+        "description": "Isolating cognitive runtimes and machine learning inference pipelines in sandboxed edge environments."
+      }
+    ]
+  },
+  "contactPage": {
+    "subtitle": "Discuss system integrations, project scope assessments, and tailored licensing options for the platform.",
+    "title": "Engineering Desk",
+    "formName": "Full Name",
+    "formEmail": "Corporate Email Address",
+    "formMessage": "Project Description / Telemetry Spec",
+    "formSubmit": "Send Request",
+    "formSuccess": "Connection requested successfully. Our systems architects will respond within 12 hours.",
+    "infoTitle": "Secure Gateway Info",
+    "infoDesc": "All data submitted through this channel is encrypted. PGP keys are available upon request for verified enterprise accounts."
+  },
+  "caseStudiesPage": {
+    "subtitle": "Real-world proof of delivery, showcasing how we scale performance and optimize complex systems for international enterprises.",
+    "projects": [
+      {
+        "title": "Automotive Assembly Telemetry",
+        "client": "Continental OEM",
+        "metric": "14ms Latency",
+        "description": "Replaced legacy hardwired PLC sequencing with software-defined container nodes, optimizing manufacturing cycle times."
+      },
+      {
+        "title": "Smart Grid Load Management",
+        "client": "Helios Energy Grid",
+        "metric": "99.999% Uptime",
+        "description": "Deployed cognitive agent load balancers at edge substations to coordinate sensor inputs and prevent local power overloads."
+      },
+      {
+        "title": "Global Telecom Analytics",
+        "client": "Apex Networks",
+        "metric": "4.2M req/sec",
+        "description": "Architected low-latency web consoles for real-time bandwidth visualization and automated fallback operations."
+      }
+    ]
+  },
+  "servicesPage": {
+    "webSpecsTitle": "Platform Engineering Specs",
+    "webSpecs": [
+      "Ultra-low latency telemetry graphs using canvas rendering",
+      "Decoupled gRPC-to-JSON client middleware proxies",
+      "Real-time alerts via encrypted secure WebSockets"
+    ],
+    "automationSpecsTitle": "Automation Runtime Specs",
+    "automationSpecs": [
+      "Dynamic driver configurations for OPC UA and Modbus",
+      "Isolated container sandboxes for hardware control loops",
+      "Local fail-safe hardware overrides on telemetry loss"
+    ],
+    "aiSpecsTitle": "AI Orchestration Specs",
+    "aiSpecs": [
+      "Context-aware LLM agents for system monitoring",
+      "High-throughput edge ML inference pipelines",
+      "Semantic indexing of historical system logs"
+    ]
   }
 }

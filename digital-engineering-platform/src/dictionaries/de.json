@@ -151,5 +151,79 @@
       "resources": "Ressourcen",
       "company": "Unternehmen"
     }
+  },
+  "aboutPage": {
+    "subtitle": "Wir bauen digitale Fundamente, die softwaredefinierte Agilität mit der Größe physikalischer Technik verbinden.",
+    "missionTitle": "Unsere Mission",
+    "missionDesc": "Überbrückung der Lücke zwischen High-Level-Web-Regelkreisen und Low-Level-Hardware-Telemetrie für sichere, autonome und skalierbare softwaredefinierte Abläufe.",
+    "valuesTitle": "Grundwerte",
+    "values": [
+      {
+        "title": "Industrielle Zuverlässigkeit",
+        "description": "Ausfallsichere Architekturen, strenge Typsicherheit und Echtzeit-Telemetrie-Verarbeitung mit deterministischen Garantien."
+      },
+      {
+        "title": "Offene Standards & Portabilität",
+        "description": "Kein Vendor-Lock-in. Unterstützung von Open-Source-Protokollen (OPC UA, Modbus) und modernen Container-Layern."
+      },
+      {
+        "title": "Sicherheit durch Isolation",
+        "description": "Isolierung kognitiver Runtimes und Pipelines für maschinelles Lernen in Sandbox-Edge-Umgebungen."
+      }
+    ]
+  },
+  "contactPage": {
+    "subtitle": "Besprechen Sie Systemintegrationen, Projektumfangsbewertungen und maßgeschneiderte Lizenzierungsoptionen für die Plattform.",
+    "title": "Engineering-Schalter",
+    "formName": "Vollständiger Name",
+    "formEmail": "Geschäftliche E-Mail-Adresse",
+    "formMessage": "Projektbeschreibung / Telemetriespezifikation",
+    "formSubmit": "Anfrage senden",
+    "formSuccess": "Verbindung erfolgreich angefordert. Unsere Systemarchitekten werden sich innerhalb von 12 Stunden melden.",
+    "infoTitle": "Sichere Gateway-Info",
+    "infoDesc": "Alle über diesen Kanal übermittelten Daten sind verschlüsselt. PGP-Schlüssel sind auf Anfrage für verifizierte Unternehmenskonten erhältlich."
+  },
+  "caseStudiesPage": {
+    "subtitle": "Echte Projektergebnisse, die zeigen, wie wir die Leistung skalieren und komplexe Systeme für internationale Unternehmen optimieren.",
+    "projects": [
+      {
+        "title": "Automobil-Montage-Telemetrie",
+        "client": "Continental OEM",
+        "metric": "14ms Latenz",
+        "description": "Ersetzte die herkömmliche festverdrahtete SPS-Sequenzierung durch softwaredefinierte Container-Knoten."
+      },
+      {
+        "title": "Smart-Grid-Lastverteilung",
+        "client": "Helios Energy Grid",
+        "metric": "99,999% Uptime",
+        "description": "Kognitive Agenten an Edge-Unterstationen wurden bereitgestellt, um Sensor-Inputs zu koordinieren."
+      },
+      {
+        "title": "Globale Telekom-Analytik",
+        "client": "Apex Networks",
+        "metric": "4,2 Mio. Anfr./Sek.",
+        "description": "Entwicklung von Latenz-armen Webkonsolen für die Echtzeit-Bandbreitenvisualisierung."
+      }
+    ]
+  },
+  "servicesPage": {
+    "webSpecsTitle": "Plattform-Engineering-Spezifikationen",
+    "webSpecs": [
+      "Latenzarme Telemetriegrafiken mit Canvas-Rendering",
+      "Entkoppelte gRPC-zu-JSON Client-Middleware-Proxys",
+      "Echtzeit-Warnungen über verschlüsselte WebSockets"
+    ],
+    "automationSpecsTitle": "Automatisierungs-Laufzeitspezifikationen",
+    "automationSpecs": [
+      "Dynamische Treiberkonfigurationen für OPC UA und Modbus",
+      "Isolierte Container-Sandboxes für Hardware-Regelkreise",
+      "Lokaler Fail-Safe-Hardware-Override bei Telemetrieverlust"
+    ],
+    "aiSpecsTitle": "KI-Orchestrierungsspezifikationen",
+    "aiSpecs": [
+      "Kontextbewusste LLM-Agenten für Systemüberwachung",
+      "Durchsatzstarke Edge-ML-Inferenzpipelines",
+      "Semantische Indizierung historischer Systemprotokolle"
+    ]
   }
 }

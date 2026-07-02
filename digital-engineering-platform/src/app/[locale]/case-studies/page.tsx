@@ -21,24 +21,55 @@ interface CaseStudiesPageProps {
 export default async function CaseStudiesPage({ params }: CaseStudiesPageProps) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const casesDict = dict.caseStudiesPage || {
+    subtitle: "",
+    projects: []
+  };
 
   return (
     <Section background="gradient" showGrid>
       <Container>
-        <div className="max-w-3xl space-y-6 animate-slide-up">
-          <Typography variant="caption" className="text-accent uppercase tracking-widest font-semibold">
-            {dict.nav.caseStudies}
-          </Typography>
-          <Typography variant="h1">
-            {dict.nav.caseStudies}
-          </Typography>
-          <Typography variant="body-large">
-            Real-world proof of delivery, showcasing how we scale performance and optimize complex systems for international enterprises.
-          </Typography>
-          <div className="h-px bg-white/10 my-8" />
-          <Typography variant="body" className="text-foreground/60">
-            [Case study filtering, performance metric grids, and client testimonials will be integrated here]
-          </Typography>
+        <div className="max-w-5xl mx-auto space-y-12 animate-slide-up">
+          <div className="space-y-4 max-w-3xl">
+            <Typography variant="caption" className="text-accent uppercase tracking-widest font-semibold">
+              {dict.nav.caseStudies}
+            </Typography>
+            <Typography variant="h1">
+              {dict.nav.caseStudies}
+            </Typography>
+            <Typography variant="body-large" className="text-foreground/90">
+              {casesDict.subtitle}
+            </Typography>
+          </div>
+
+          <div className="h-px bg-white/10" />
+
+          {/* Projects Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {casesDict.projects.map((proj: any, idx: number) => (
+              <div 
+                key={idx}
+                className="flex flex-col justify-between p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-accent/40 hover:bg-white/[0.07] transition-all duration-300 group"
+              >
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-accent bg-accent/10 px-2.5 py-1 rounded-full">
+                      {proj.client}
+                    </span>
+                    <span className="text-xs font-mono text-white/55">
+                      {proj.metric}
+                    </span>
+                  </div>
+                  <Typography variant="h3" className="text-white font-bold group-hover:text-accent transition-colors">
+                    {proj.title}
+                  </Typography>
+                  <Typography variant="body-small" className="text-foreground/60 leading-relaxed">
+                    {proj.description}
+                  </Typography>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </Container>
     </Section>
