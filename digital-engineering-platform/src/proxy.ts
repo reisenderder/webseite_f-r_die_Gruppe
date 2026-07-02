@@ -1,6 +1,6 @@
 /**
- * @file middleware.ts
- * @description Next.js Middleware handling browser locale detection and route redirection.
+ * @file proxy.ts
+ * @description Next.js Proxy routing handling browser locale detection and route redirection.
  */
 
 import { NextResponse } from "next/server";
@@ -31,7 +31,7 @@ function getLocale(request: NextRequest): string {
   }
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Check if pathname already starts with a supported locale
