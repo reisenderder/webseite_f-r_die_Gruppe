@@ -151,5 +151,79 @@
       "resources": "Ressources",
       "company": "Entreprise"
     }
+  },
+  "aboutPage": {
+    "subtitle": "Nous construisons des fondations numériques reliant l'agilité logicielle à l'échelle de l'ingénierie physique.",
+    "missionTitle": "Notre mission",
+    "missionDesc": "Combler le fossé entre les boucles de contrôle web de haut niveau et la télémétrie physique de bas niveau.",
+    "valuesTitle": "Valeurs fondamentales",
+    "values": [
+      {
+        "title": "Fiabilité industrielle",
+        "description": "Architectures tolérantes aux pannes, sécurité de type stricte et traitement de la télémétrie en temps réel."
+      },
+      {
+        "title": "Standards ouverts & Portabilité",
+        "description": "Pas de verrouillage fournisseur. Prise en charge des protocoles open-source (OPC UA, Modbus) et des conteneurs."
+      },
+      {
+        "title": "Sécurité par l'isolement",
+        "description": "Isolation des environnements d'exécution cognitifs et d'apprentissage automatique à la périphérie."
+      }
+    ]
+  },
+  "contactPage": {
+    "subtitle": "Discutez des intégrations de systèmes, des évaluations de projet et des options de licence adaptées à la plateforme.",
+    "title": "Bureau d'ingénierie",
+    "formName": "Nom complet",
+    "formEmail": "Adresse e-mail de l'entreprise",
+    "formMessage": "Description du projet / Spécification de télémétrie",
+    "formSubmit": "Envoyer la demande",
+    "formSuccess": "Demande envoyée avec succès. Nos architectes système vous répondront sous 12 heures.",
+    "infoTitle": "Passerelle sécurisée",
+    "infoDesc": "Toutes les données soumises via ce canal sont cryptées. Clés PGP disponibles sur demande."
+  },
+  "caseStudiesPage": {
+    "subtitle": "Preuves concrètes de livraison, illustrant comment nous optimisons les systèmes complexes pour les entreprises.",
+    "projects": [
+      {
+        "title": "Télémétrie d'assemblage automobile",
+        "client": "Continental OEM",
+        "metric": "Létence 14ms",
+        "description": "Remplacement du séquençage API traditionnel par des nœuds logiciels conteneurisés."
+      },
+      {
+        "title": "Gestion de charge réseau intelligent",
+        "client": "Helios Energy Grid",
+        "metric": "Dispo 99.999%",
+        "description": "Déploiement d'agents cognitifs de répartition de charge aux sous-stations de réseau."
+      },
+      {
+        "title": "Analyses télécom mondiales",
+        "client": "Apex Networks",
+        "metric": "4.2M req/sec",
+        "description": "Création de consoles web à faible latence pour la visualisation en temps réel de la bande passante."
+      }
+    ]
+  },
+  "servicesPage": {
+    "webSpecsTitle": "Spécifications d'ingénierie plateforme",
+    "webSpecs": [
+      "Graphiques de télémétrie à ultra-faible latence avec rendu Canvas",
+      "Proxys intermédiaires de conversion gRPC vers JSON",
+      "Alertes en temps réel via des WebSockets sécurisés et cryptés"
+    ],
+    "automationSpecsTitle": "Spécifications d'exécution d'automatisation",
+    "automationSpecs": [
+      "Configuration dynamique des pilotes pour OPC UA et Modbus",
+      "Environnements d'exécution conteneurisés isolés pour boucles de contrôle",
+      "Contournement matériel d'urgence local en cas de perte de télémétrie"
+    ],
+    "aiSpecsTitle": "Spécifications d'orchestration d'IA",
+    "aiSpecs": [
+      "Agents LLM conscients du contexte pour la surveillance",
+      "Pipelines d'inférence ML à haut débit à la périphérie",
+      "Indexation sémantique des journaux système historiques"
+    ]
   }
 }
